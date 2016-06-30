@@ -1,20 +1,19 @@
 ---
-services: networking
+services: compute
 platforms: java
 author: selvasingh
 ---
 
 #Getting Started with Network - Manage Network Security Group - in Java #
 
-Networking Manage Network Security Group Sample (for 1.0.0-beta2) - demonstrates how to perform common management tasks using the Microsoft Azure Networking service.
 
-
-- Create a network security group for the front end of a subnet
-- Create a network security group for the back end of a subnet
-- Create Linux virtual machines for the front end and back end
-	- Apply network security groups
-- List network security groups
-- Update a network security group.
+  Azure Network sample for managing network security groups -
+   - Create a network security group for the front end of a subnet
+   - Create a network security group for the back end of a subnet
+   - Create Linux virtual machines for the front end and back end
+   -- Apply network security groups
+   - List network security groups
+   - Update a network security group.
  
 
 ## Running this Sample ##
@@ -31,11 +30,7 @@ Set the environment variable `AZURE_AUTH_LOCATION` with the full path for an aut
 
 ## More information ##
 
-[http://azure.com/java](http://azure.com/java)
-
-[Azure Networking](https://azure.microsoft.com/en-us/services/virtual-network/)
-
-[Azure Network Security Group](https://azure.microsoft.com/en-us/documentation/articles/virtual-networks-nsg/)
+[http://azure.com/java] (http://azure.com/java)
 
 If you don't have a Microsoft Azure subscription you can get a FREE trial account [here](http://go.microsoft.com/fwlink/?LinkId=330212)
 
