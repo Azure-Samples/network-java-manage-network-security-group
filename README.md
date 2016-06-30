@@ -1,5 +1,5 @@
 ---
-services: compute
+services: networking
 platforms: java
 author: selvasingh
 ---
