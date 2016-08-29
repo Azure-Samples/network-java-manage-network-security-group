@@ -4,10 +4,11 @@ platforms: java
 author: selvasingh
 ---
 
-#Getting Started with Network - Manage Network Security Group - in Java #
+# Getting Started with Networking in Java: Manage Network Security Group
 
-Networking Manage Network Security Group Sample (for 1.0.0-beta2) - demonstrates how to perform common management tasks using the Microsoft Azure Networking service.
+This sample shows how to use Java to manage a network security group for your Microsoft Azure network.
 
+The sample performs these tasks:
 
 - Create a network security group for the front end of a subnet
 - Create a network security group for the back end of a subnet
@@ -21,23 +22,30 @@ Networking Manage Network Security Group Sample (for 1.0.0-beta2) - demonstrates
 
 To run this sample:
 
-Set the environment variable `AZURE_AUTH_LOCATION` with the full path for an auth file. See [how to create an auth file](https://github.com/Azure/azure-sdk-for-java/blob/master/AUTH.md).
+1. If you don't already have a Microsoft Azure subscription, you can register for a [free trial account](http://go.microsoft.com/fwlink/?LinkId=330212).
 
-    git clone https://github.com/Azure-Samples/network-java-manage-network-security-group.git
+2. Install the [Azure Management Libraries for Java](https://github.com/Azure/azure-sdk-for-java/). These libraries contain the Azure Storage Resource Provider.
 
-    cd network-java-manage-network-security-group
+3. Set the environment variable `AZURE_AUTH_LOCATION` with the full path for an auth file. See [how to create an auth file](https://github.com/Azure/azure-sdk-for-java/blob/master/AUTH.md) for more information.
 
-    mvn clean compile exec:java
+4. Clone this repository: 
+
+	    git clone https://github.com/Azure-Samples/network-java-manage-network-security-group.git
+
+5. Navigate to the source directory for the sample:
+
+	    cd network-java-manage-network-security-group
+
+6. Build the project with [Maven](https://maven.apache.org/download.cgi):
+
+	    mvn clean compile exec:java
+
 
 ## More information ##
 
-[http://azure.com/java](http://azure.com/java)
-
-[Azure Networking](https://azure.microsoft.com/en-us/services/virtual-network/)
-
-[Azure Network Security Group](https://azure.microsoft.com/en-us/documentation/articles/virtual-networks-nsg/)
-
-If you don't have a Microsoft Azure subscription you can get a FREE trial account [here](http://go.microsoft.com/fwlink/?LinkId=330212)
+- [Microsoft Azure Java developer center](https://azure.microsoft.com/en-us/develop/java/)
+- [Azure Networking](https://azure.microsoft.com/services/virtual-network/)
+- [Azure Network Security Group](https://azure.microsoft.com/documentation/articles/virtual-networks-nsg/)
 
 ---
 
