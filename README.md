@@ -4,9 +4,8 @@ languages:
 - java
 products:
 - azure
-extensions:
-- services: virtual-network
-- platforms: java
+description: "Getting Started with Network - Manage Network Security Group - in Java"
+urlFragment: network-java-manage-network-security-group
 ---
 
 # Getting Started with Network - Manage Network Security Group - in Java #
