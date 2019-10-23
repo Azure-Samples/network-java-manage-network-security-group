@@ -4,6 +4,7 @@ languages:
 - java
 products:
 - azure
+- azure-virtual-network
 description: "Azure Network sample for managing network security groups."
 urlFragment: network-java-manage-network-security-group
 ---
